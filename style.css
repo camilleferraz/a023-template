@@ -2,3 +2,84 @@
     margin: 0;
     padding: 0;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+header{
+height: 8vh;
+border: solid black 1px;
+background-color: blueviolet;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.padding-header{
+    padding: 0 1rem;
+}
+
+main{
+    background-color: aqua;
+    display: flex;
+    flex-grow: 1;
+   
+}
+
+footer{
+    display: flex;
+background-color: aquamarine;
+}
+
+.container-article{
+    display: flex;
+    height: 100vh;
+}
+
+.conteudo-1{
+   
+    flex: 1;
+}
+
+.conteudo-2{
+    
+    flex: 2;
+}
+
+.conteudo-3{
+    flex: 1;
+}
+
+article{
+    border: solid black 1px;
+}
+
+.section-image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: flex-start;
+    
+    
+
+}
+
+figure{
+   display: flex;
+   flex-direction: column;
+    width: 160px;
+    background-color: lightblue;
+    padding: 1rem;
+    border: black solid 1px;
+    
+
+    
+}
+
+.card{
+    padding: 1rem;
+}
